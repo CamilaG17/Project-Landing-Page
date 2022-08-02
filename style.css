@@ -28,10 +28,6 @@ body {
 }
 .top{
     display: flex;
-    width: 480px;
-    gap: 8px;
-    flex-wrap: wrap;
-    padding: 30px;
     background-color: #1f2937;
 }
 .mtext {
@@ -40,8 +36,32 @@ body {
     color: #f9faf8;
 }
 .stext {
+    display: flex;
     color: #cacdd1;
     font-size: 15px;
+}
+.on {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 480px;
+    gap: 8px;
+    padding: 30px;
+}
+img{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right: -80px;
+    bottom: -20;
+    max-width: 300x;
+    max-height: 200px;
+    object-fit: contain;
+    padding: 30px;
+}
+.welcome {
+    max-width: 100%;
+    height: auto;
 }
 .middle {
     display: flex;
@@ -83,7 +103,7 @@ body {
     align-self: flex-end;
     color: #1f2937;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
 }
 .container {
     display: flex;
@@ -114,24 +134,25 @@ body {
 .getstart {
     width: fit-content;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .getstart {
     padding-bottom: 30px;
-    font-size: 13px;
+    font-size: 15px;
     color: #f9faf8;
 }
 .click {
     display: flex;
     align-self: center;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 button {
     font-size: 14px;
     color:#f9faf8;
+    width: 100px;
     padding: 8px 16px;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 8px;
     background: #3882f6;
   }
